@@ -13,6 +13,16 @@ public class HistoryDatabase
           + "becoming a symbol of courage, sacrifice, and resistance."
           );
       }
+      else if(userInput.equals("9/11"))
+      {
+          return new HistoryEvemt(
+            "On September 11, 2001, 19 terrorists associated with "
+            + "the extremist group al-Qaeda hijacked four commercial "
+            + "airplanes and carried out coordinated suicide attacks "
+            + "against targets in the United States, the deadliest terrorist "
+            + "attacks on American soil in history."
+            );
+      }
     return null; //not found
     }
   }
